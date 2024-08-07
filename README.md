@@ -3,33 +3,33 @@ This repository contains a collection of fundamental Kusto Query Language (KQL) 
 
 ___
 
-Contents
+# Contents
 
-Introduction to KQL:
+# Introduction to KQL:
 Basic syntax and query structure.
 
-Log Searching:
+# Log Searching:
 How to search and filter logs using simple queries.
 
-Data Summarization:
+# Data Summarization:
 Techniques to summarize and aggregate data.
 
-Time Series Analysis: 
+# Time Series Analysis: 
 Queries to analyze data over specific time intervals.
 
-Visualization: 
+# Visualization: 
 Examples of rendering data into charts and tables.
 
-Join Operations: 
+# Join Operations: 
 Basics of joining different datasets.
 
-Filtering and Sorting: 
+# Filtering and Sorting: 
 Methods to refine and order query results.
 
 ___
 
 
-How to Use
+# How to Use
 
 Clone or download the repository to your local machine.
 Explore each file to understand the basic query patterns and techniques.
@@ -38,5 +38,5 @@ Practice by modifying the queries to suit your own data and requirements.
 ___
 
 
-Contributions
+# Contributions
 Contributions are welcome! If you have additional basic queries or improvements, feel free to submit a pull request.
