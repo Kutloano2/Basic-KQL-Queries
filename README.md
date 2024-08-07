@@ -2,15 +2,15 @@
 This repository contains a collection of fundamental Kusto Query Language (KQL) queries designed for beginners who are looking to get started with data analysis in Azure Monitor, Azure Log Analytics, and other KQL-supported environments.
 
 
-Contents
+**Contents**
 
-Introduction to KQL: 
+**Introduction to KQL: **
 Basic syntax and query structure.
 
-Log Searching: 
+**Log Searching: **
 How to search and filter logs using simple queries.
 
-Data Summarization: 
+**Data Summarization: **
 Techniques to summarize and aggregate data.
 
 Time Series Analysis: 
