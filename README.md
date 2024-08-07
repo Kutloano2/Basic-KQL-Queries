@@ -26,12 +26,17 @@ Basics of joining different datasets.
 Filtering and Sorting: 
 Methods to refine and order query results.
 
+___
+
 
 How to Use
 
 Clone or download the repository to your local machine.
 Explore each file to understand the basic query patterns and techniques.
 Practice by modifying the queries to suit your own data and requirements.
+
+___
+
 
 Contributions
 Contributions are welcome! If you have additional basic queries or improvements, feel free to submit a pull request.
