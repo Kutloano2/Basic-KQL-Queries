@@ -1,0 +1,54 @@
+1. Basic Log Search
+// Search for all logs within a specific table.
+Heartbeat
+| take 10
+
+2. Filter by Time Range
+// Retrieve logs generated within the last 24 hours.
+Heartbeat
+| where TimeGenerated > ago(24h)
+
+3. Filter by a Specific Column Value
+// Search for logs where a specific column matches a value
+Heartbeat
+| where Computer == "my-computer-name"
+
+4. Count the Number of Records
+// Count the total number of records in a table.
+Heartbeat
+| count
+
+5. Summarize and Count by a Column
+// Group logs by a specific column and count the occurrences.
+Heartbeat
+| summarize CountByComputer = count() by Computer
+
+6. Sort Results
+// Sort the query results in descending order by a specific column.
+Heartbeat
+| order by TimeGenerated desc
+
+7. Top N Results
+// Retrieve the top 5 records based on a specific column.
+Heartbeat
+| top 5 by TimeGenerated desc
+
+8. Time-Based Aggregation
+// Aggregate data over time to analyze trends.
+Heartbeat
+| summarize CountPerHour = count() by bin(TimeGenerated, 1h)
+
+9. Simple Join Between Two Tables
+// Join two tables to find matching records.
+Heartbeat
+| join kind=inner (
+    Perf
+    | where ObjectName == "Processor" and CounterName == "% Processor Time"
+) on Computer
+
+10. Render a Time Chart
+// Visualize data over time with a simple time chart.
+Heartbeat
+| summarize CountPerHour = count() by bin(TimeGenerated, 1h)
+| render timechart
+

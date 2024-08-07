@@ -1,9 +1,0 @@
-1. Basic Log Search
-//Search for all logs within a specific table.
-Heartbeat
-| take 10
-
-2. Filter by Time Range
-//Retrieve logs generated within the last 24 hours.
-Heartbeat
-| where TimeGenerated > ago(24h)
