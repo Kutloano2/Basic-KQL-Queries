@@ -5,25 +5,25 @@ ___
 
 # Contents
 
-# Introduction to KQL:
+Introduction to KQL:
 Basic syntax and query structure.
 
-# Log Searching:
+Log Searching:
 How to search and filter logs using simple queries.
 
-# Data Summarization:
+Data Summarization:
 Techniques to summarize and aggregate data.
 
-# Time Series Analysis: 
+Time Series Analysis: 
 Queries to analyze data over specific time intervals.
 
-# Visualization: 
+Visualization: 
 Examples of rendering data into charts and tables.
 
-# Join Operations: 
+Join Operations: 
 Basics of joining different datasets.
 
-# Filtering and Sorting: 
+Filtering and Sorting: 
 Methods to refine and order query results.
 
 ___
